@@ -1,10 +1,10 @@
-/* Filename	: Emirp.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2013
- * Question : 8
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Emirp.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2013					|
+ * 						|	Question 	: 8	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -12,7 +12,7 @@
  *	Example: 13 and 31 are both prime numbers. Thus, 13 is an emirp number.
  *	Design a class Emirp to check if a given number is Emirp number or not. Some of the members
  *	of the class are given below:
- *		Class name 						: Emirp
+ *		Class name 						: 	Emirp
  * 		Data members/instance variables	:
  * 			n 							: 	stores the number
  *			rev 						: 	stores the reverse of the number
@@ -28,8 +28,9 @@
  *	Specify the class Emirp giving details of the constructor(int), int isprime(int) and 
  *	void isEmirp(). Define the main() function to create an object and call the methods 
  *	to check for Emirp number.
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.util.Scanner;
 public class Emirp{
 	int n,rev,f;
@@ -69,3 +70,4 @@ public class Emirp{
 		obj.isEmirp();
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

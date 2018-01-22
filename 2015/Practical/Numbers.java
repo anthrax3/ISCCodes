@@ -1,10 +1,10 @@
-/* Filename	: Numbers.java
- * Coder	: Ayushanand Singh
- * Paper    : Practical
- * Year		: 2015
- * Question : 1
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Numbers.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Practical				|
+ * 						|	Year		: 2015					|
+ * 						|	Question 	: 1 					|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -20,8 +20,10 @@
  *	Also, print the total number of digits present in the required number. 
  *	The program should check for the validity of the inputs and display an 
  *	appropriate message for an invalid input.
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
+
 import java.util.*;
 class Numbers{
 	public static void main(String args[])throws InputMismatchException{
@@ -54,3 +56,5 @@ class Numbers{
 	 	}
 	}
 }
+
+// ------------------------------------{END OF THE CODE}-----------------------------------------

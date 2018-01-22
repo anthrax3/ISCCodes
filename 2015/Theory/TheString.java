@@ -1,10 +1,10 @@
-/* Filename	: TheString.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2015
- * Question : 10
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: TheString.java		|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2015					|
+ * 						|	Question 	: 10 					|
+ * 						-----------------------------------------
  * ################################################################################################
  * ======================================[DESCRIPTION]=============================================
  * ################################################################################################
@@ -29,7 +29,10 @@
  *	void Display( ). Define the main( ) function to create an object and call the functions
  *	accordingly to enable the task.
  *-------------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
+
 public class TheString{
 	String str;
 	int len,wordcount,cons;
@@ -61,3 +64,5 @@ public class TheString{
 		x.Display();
 	}
 }
+
+// ------------------------------------{END OF THE CODE}-----------------------------------------

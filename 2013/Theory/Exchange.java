@@ -1,10 +1,10 @@
-/* Filename	: Exchange.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2013
- * Question : 9
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Exchange.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2013					|
+ * 						|	Question 	: 9	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -28,18 +28,13 @@
  *											sentence ‘rev’ using the changed words
  *			void display()				: 	display the original sentence along with the 
  *											new changed sentence.
- *	Specify the class Exchange giving details of the constructor(), void readsentence(), 
- *	void exfirstlast() and void display(). Define the main() function to create an object 
- *	and call the function accordingly to enable the task.
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.util.*;
 public class Exchange{
-	String sent,rev;
-	int size;
+	String sent,rev; int size;
 	Exchange(){ 
-		sent=null;
-		rev="";
+		sent=null; rev="";
 	}
 	void readsentence(){ 
 		Scanner sc=new Scanner(System.in);
@@ -76,3 +71,4 @@ public class Exchange{
 		obj.display();
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

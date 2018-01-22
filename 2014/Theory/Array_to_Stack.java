@@ -1,10 +1,10 @@
-/* Filename	: Array_to_Stack.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2014
- * Question : 12
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Array_to_Stack.java	|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2014					|
+ * 						|	Question 	: 12	   				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -30,8 +30,9 @@
  *			int popmarks( ) 			:	to return marks from the stack if possible,
  *											otherwise, return -999
  *			void display( ) 			:	To display the stack elements
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.util.*;
 class Array_to_Stack{ 
 	int m[], st[];
@@ -67,3 +68,4 @@ class Array_to_Stack{
 			System.out.println(st[i]);
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

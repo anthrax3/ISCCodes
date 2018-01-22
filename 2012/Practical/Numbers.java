@@ -1,10 +1,10 @@
-/* Filename	: Numbers.java
- * Coder	: Ayushanand Singh
- * Paper    : Practical
- * Year		: 2012
- * Question : 1
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Numbers.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Practical				|
+ * 						|	Year		: 2012					|
+ * 						|	Question 	: 1	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -15,8 +15,9 @@
  *
  *	The input contains two positive integers m and n where m < 3000 and n < 3000. 
  * 	Display the number of prime palindrome integers in the specified range along with values.
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.util.*;
 class Numbers{
 	public static void main (String args[])throws InputMismatchException{
@@ -26,19 +27,16 @@ class Numbers{
     	m = scan.nextInt();
     	n = scan.nextInt();
     	if(m < 3000 && n < 3000){
-    		// To count the frequency of prime-palindrome numbers
     		freq = 0; 
    			System.out.println("The prime palindrome integers are:");
     		for(i=m;i<=n;i++){
         		t = i;
-        		//Check for prime
         		c = 0;
         		for(j =1; j<=t; j++){
             		if(t%j == 0)
                 	c++;
         		}
         		if(c == 2){
-            		//Check for palindrome
             		r = 0;
             		while(t>0){
                 		a = t%10;
@@ -58,3 +56,4 @@ class Numbers{
 		}
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

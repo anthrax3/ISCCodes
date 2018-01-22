@@ -1,10 +1,10 @@
-/* Filename	: Matrix.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2013
- * Question : 10
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Matrix.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2013					|
+ * 						|	Question 	: 10    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -25,16 +25,16 @@
  *	Specify the class Matrix giving details of the constructor(int,int), void fillarray(), 
  *	Matrix SubMat(Matrix A) and void display(). Define the main() function to create objects 
  *	and call the function accordingly to enable the task.
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.util.Scanner;
 public class Matrix{ 
 	static Scanner sc=new Scanner(System.in);
 	int arr[][]=new int[25][25];
 	int m,n;
 	Matrix(int mm,int nn){ 
-		m=mm;
-		n=nn;
+		m=mm; n=nn;
 	}
 	void fillarray(){ 
 		System.out.print("\n Enter elements of array ");
@@ -71,3 +71,4 @@ public class Matrix{
 		C.display();
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

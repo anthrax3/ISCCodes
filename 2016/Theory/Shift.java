@@ -1,10 +1,10 @@
-/* Filename	: Shift.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2016
- * Question : 8
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Shift.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2016					|
+ * 						|	Question 	: 8						|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -28,8 +28,10 @@
  *  Specify the class Shift giving details of the constructor( ), void input( ), void cyclic(Shift)
  *  and void display( ). Define the main( ) function to create an object and call the methods
  *  accordingly to enable the task of shifting the array elements.
- *-----------------------------------------------------------------------------------------------
  */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
+
 import java.util.Scanner;
 public class Shift{ 
 	static Scanner sc=new Scanner(System.in);
@@ -71,3 +73,4 @@ public class Shift{
 		y.display();
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

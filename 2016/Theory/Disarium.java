@@ -1,10 +1,10 @@
-/* Filename	: Disarium.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2016
- * Question : 7
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Disariun.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2016					|
+ * 						|	Question 	: 7						|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -24,8 +24,10 @@
  *			void countDigit( )				: 	counts the total number of digits and assigns it 
  *			                                  	to size
  *			int sumofDigits(int n, int p) 	: 	returns the sum of the digits of the number(n)
- *-----------------------------------------------------------------------------------------------
  */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
+
 import java.util.Scanner;
 public class Disarium{ 
 	int num,size;
@@ -58,3 +60,5 @@ public class Disarium{
 		x.check();
 	}
 }
+
+// ------------------------------------{END OF THE CODE}-----------------------------------------

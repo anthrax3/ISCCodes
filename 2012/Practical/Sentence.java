@@ -1,10 +1,10 @@
-/* Filename	: Sentence.java
- * Coder	: Ayushanand Singh
- * Paper    : Practical
- * Year		: 2012
- * Question : 2
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Sentence.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Practical				|
+ * 						|	Year		: 2012					|
+ * 						|	Question 	: 2	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -13,8 +13,9 @@
  * 	or '?'. Perform the following tasks:
  *		1. Obtain the length of the sentence (measured in words)
  *    	2. Arrange the sentence in alphabetical order of the words
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.io.*;
 class String{
 	public static void main (String args[])throws IOException{
@@ -25,15 +26,15 @@ class String{
 		System.out.println("Enter a sentence ");
     	str = br.readLine();
     	l = str.length();
-    	now = 0; //To count the  number of words
+    	now = 0; 
     	for(i=0;i< l;i++){
         	ch = str.charAt(i);
         	if(ch == ' ' || ch == '?' || ch == '.'|| ch == '!')
             	now++;
     	}
     	String words[] = new String[now];
-    	x=0; //Used as index pointer for string array
-    	p=0; //To store the index of first letter of each word
+    	x=0; 
+    	p=0; 
     	for(i=0;i< l;i++){
         	ch = str.charAt(i);
         	if(ch == ' ' || ch == '?' || ch == '.' || ch == '!'){
@@ -58,3 +59,4 @@ class String{
     	}
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

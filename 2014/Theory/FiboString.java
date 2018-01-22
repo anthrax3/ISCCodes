@@ -1,10 +1,10 @@
-/* Filename	: FiboString.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2014
- * Question : 10
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: FiboString.java		|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2014					|
+ * 						|	Question 	: 10	   				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -28,8 +28,9 @@
  *	Specify the class FiboString, giving details of the constructor( ), void accept( ) and
  *	void generate( ). Define the main( ) function to create an object and call the functions
  *	accordingly to enable the task.
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.util.*;
 class FiboString{ 
 	String x,y,z;
@@ -59,3 +60,4 @@ class FiboString{
 		obj.generate();
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

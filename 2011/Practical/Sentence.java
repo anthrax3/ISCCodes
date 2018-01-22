@@ -1,10 +1,10 @@
-/* Filename	: Sentence.java
- * Coder	: Ayushanand Singh
- * Paper    : Practical
- * Year		: 2011
- * Question : 2
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Sentence.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Practical				|
+ * 						|	Year		: 2011					|
+ * 						|	Question 	: 2	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -17,8 +17,8 @@
  *	Change the sentence of the odd rows with an encryption of two characters ahead of the 
  *	original character.(Caesar Cipher)
  *	Also change the sentence of the even rows by storing the sentence in reverse order. 
- *-----------------------------------------------------------------------------------------------
  */
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.io.*;
 class Sentence{
 	public static void main(String args[])throws IOException{
@@ -35,33 +35,28 @@ class Sentence{
     			s[i]=(br.readLine()).toUpperCase();
     		for(i=0;i< nos;i++){
         		String t;
-        		s[i]=" "+s[i];// add a blank space before each sentence 
+        		s[i]=" "+s[i];
        			l=s[i].length();
         		if(i%2==0){
         			t="";
         			for(j=0;j< l;j++){
-						// store the ASCII code of the character
             			int ch=s[i].charAt(j);
             			if(ch!=32 && ch!='.'){
-                			ch=ch+2;//shift the letter two spaces
-                			if(ch>90)//to maintain cyclic order
-                				ch=ch-26;// subtract 26
+                			ch=ch+2;
+                			if(ch>90)
+                				ch=ch-26;
               			}
-						//convert to character and add to a temporary string
               			t=t+(char)ch;
         			}
-        			s[i]=t.trim();// remove leading or trailing spaces
+        			s[i]=t.trim();
     			}
     			else{
         			t="";
         			p=l-1;
         			for(j=l-1;j>=0;j--){ 
-						//reverse loop to start extraction of words 
-						//from last to first
         				char ch=s[i].charAt(j);
         				if(ch==' '){
         					t=t+s[i].substring(j+1,p)+" "; 
-							// add the extracted word and a space
         					p=j;
         				}
     				}
@@ -75,3 +70,4 @@ class Sentence{
   		}
 	}
 } 
+// ------------------------------------{END OF THE CODE}-----------------------------------------

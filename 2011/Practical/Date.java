@@ -1,10 +1,10 @@
-/* Filename	: Date.java
- * Coder	: Ayushanand Singh
- * Paper    : Practical
- * Year		: 2011
- * Question : 3
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Date.java				|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Practical				|
+ * 						|	Year		: 2011					|
+ * 						|	Question 	: 3	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -13,8 +13,8 @@
  *	If it is valid, display "VALID DATE", also compute and display the day number of the year 
  *	for the date of birth. If it is invalid, display "INVALID DATE" and then 
  *	terminate the program.
- *-----------------------------------------------------------------------------------------------
  */
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.util.*;
 class Date{
 	public static void main(String args[])throws InputMismatchException{
@@ -39,3 +39,4 @@ class Date{
 		}
 	}
 } 
+// ------------------------------------{END OF THE CODE}-----------------------------------------

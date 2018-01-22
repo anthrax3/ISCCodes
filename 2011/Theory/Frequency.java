@@ -1,10 +1,10 @@
-/* Filename	: Frequency.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2011
- * Question : 8
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Frequency.java		|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2011					|
+ * 						|	Question 	: 8	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -24,24 +24,18 @@
  *			void checkanfreq()			: 	to count the frequency of an.
  *			void display()				: 	to display the frequency of “an” and “and” with 
  *											suitable messages.
- *-----------------------------------------------------------------------------------------------
  */
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 class Frequency{
-	String text;
- 	int countand, countan, len;
+	String text; int countand, countan, len;
   	Frequency(){
- 		text="";
- 		countand=0;
- 		countan=0;
+ 		text=""; countand=0; countan=0;
  	}
  	void accept(String n){
-  		text=n;
-  		len=text.length()-1;
+  		text=n; len=text.length()-1;
  	}
  	public void checkandfreq(){
-  		int i;
-  		String s1="";
-  		s1=text;
+  		int i; String s1=""; s1=text;
 		for(i=0;i<=len;i++){
    			if(text.charAt(i)!=' ')
    				s1=s1+text.charAt(i);
@@ -51,19 +45,15 @@ class Frequency{
     			s1="";
    			}
    		}
-    	if(s1.equals("and"))
-    		countand++;
+    	if(s1.equals("and")) countand++;
  	}
  	public void checkanfreq(){
-  		int i;
-  		String s1="";
-  		s1=text;
+  		int i; String s1=""; s1=text;
 		for(i=0;i<=len;i++){
    			if(text.charAt(i)!=' ')
    				s1=s1+text.charAt(i);
    			else{
-    			if(s1.equals("an"))
-    				countan++;
+    			if(s1.equals("an")) countan++;
     			s1="";
    			}
    		}
@@ -78,8 +68,7 @@ class Frequency{
 	public static void main(String args[]){
  		Frequency one=new Frequency();
  		one.accept("this is an example of an and and");
- 		one.checkandfreq();
-  		one.checkanfreq();
-	  	one.display();
+ 		one.checkandfreq(); one.checkanfreq(); one.display();
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

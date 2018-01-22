@@ -1,10 +1,10 @@
-/* Filename	: Book.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2016
- * Question : 11
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Book.java				|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2016					|
+ * 						|	Question 	: 11					|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -27,8 +27,10 @@
  *	Specify the class Book giving the details of ONLY the functions void tell( ) and 
  *	void add(String). Assume that the other functions have been defined.
  *  The main function need not be written.
- *-----------------------------------------------------------------------------------------------
  */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
+
 public class Book{ 
 	String name[ ];
 	int point,max;
@@ -54,3 +56,5 @@ public class Book{
 			System.out.print("\n " + name[i]);
 	}
 }
+
+// ------------------------------------{END OF THE CODE}-----------------------------------------

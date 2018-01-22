@@ -1,10 +1,10 @@
-/* Filename	: VowelWord.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2012
- * Question : 9
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: VowelWord.java		|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2012					|
+ * 						|	Question 	: 9	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -24,32 +24,24 @@
  *												with a vowel.
  *				void display()				:	to display the original string and the frequency 
  *												of the words that begin with a vowel.
- *	Specify the class VowelWord giving details of the constructor( ), void readstr(), 
- *	void freq_vowel() and void display(). Also defing the main function to create an object and 
- *	call the methods accordingly to enable the task.
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.io.*;
 class VowelWord{
-	int freq;
+	int freq; String str;
 	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-	String str;
 	VowelWord(){
- 		freq=0;
- 		str="";
+ 		freq=0; str="";
 	}
 	void readstr() throws Exception{
  		System.out.print("\nEnter the sentence:");
  		str=br.readLine();
 	}
 	void freq_vowel(){
-		String s,s1;
-		int i;
-		freq=0;
-		s=str.toUpperCase();
+		String s,s1; int i; freq=0; s=str.toUpperCase();
 		while(true){
  			i=s.indexOf(" ");
- 			if(i<0 font="">
+ 			if(i<0)
  				break;
 		    s1=s.substring(0,i);
 		    s=s.substring(i+1);
@@ -76,8 +68,7 @@ class VowelWord{
 	}
 	public static void main(String args[]) throws Exception{
  		VowelWord ob=new VowelWord();
- 		ob.readstr();
- 		ob.freq_vowel();
- 		ob.display();
+ 		ob.readstr(); ob.freq_vowel(); ob.display();
  	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

@@ -1,10 +1,10 @@
-/* Filename	: Mixer.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2014
- * Question : 8
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Mixer.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2014					|
+ * 						|	Question 	: 8	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -25,16 +25,15 @@
  *	Specify the class Mixer, giving details of the constructor(int), void accept( ),
  *	Mixer mix(Mixer) and void display( ) . Define the main( ) function to create an object
  *	and call the function accordingly to enable the task.
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.util.*;
 class Mixer{ 
-	int arr[ ];
-	int n;
+	int arr[ ]; int n;
 	static Scanner sc=new Scanner(System.in);
 	Mixer(int nn){
-		n=nn;
-		arr=new int[n];
+		n=nn; arr=new int[n];
 	}
 	void accept( ){ 
 		System.out.println("Enter "+ n+ " elements in ascending order");
@@ -63,15 +62,13 @@ class Mixer{
 	}
 	void display(){ 
 		for(int i=0;i<n;i++)
-		System.out.println(arr[i]);
+			System.out.println(arr[i]);
 	}
 	static void main(){ 
 		Mixer P=new Mixer(4);
 		Mixer Q=new Mixer(3);
 		Mixer R=new Mixer(7);
-		P.accept();
-		Q.accept();
-		R=P.mix(Q);
-		R.display();
+		P.accept(); Q.accept(); R=P.mix(Q); R.display();
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

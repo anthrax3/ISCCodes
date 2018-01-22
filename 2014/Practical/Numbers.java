@@ -1,10 +1,10 @@
-/* Filename	: Numbers.java
- * Coder	: Ayushanand Singh
- * Paper    : Practical
- * Year		: 2014
- * Question : 1
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Numbers.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Practical				|
+ * 						|	Year		: 2014					|
+ * 						|	Question 	: 1	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -21,8 +21,9 @@
  *		Input	: 	m=10 n=100
  *		Output	: 	The composite magic numbers are 10,28,46,55,64,82,91,100
  *					Frequency of composite magic numbers: 8
- *-----------------------------------------------------------------------------------------------
  */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.io.*;
 class Numbers{
 	int m,n,c=0;
@@ -33,38 +34,30 @@ class Numbers{
 	    System.out.println("Enter the value of 'n';");
    		n=Integer.parseInt(br.readLine());
    		if(m > n){
-   			System.out.println("Invalid Input.");
-   			return;
+   			System.out.println("Invalid Input."); return;
    		}
    		System.out.println("The composite magic numbers are ");
    		for(;m < =n;m++){
    			if(nonPrime(m) && magic(m)){
-   				System.out.print(m+ " ");
-				c++;
+   				System.out.print(m+ " "); c++;
    			}
    		}
   		System.out.println("\nFrequency of composite magic numbers:"+c);
   	}
   	private boolean nonPrime (int x){
    		int i;
-   		for(i=2;i < x; i++){
-    		if(x%i==0)
-    			break;
-    	}
-    	if(i==x)
-    		return false;
-    	else
-    		return true;
+   		for(i=2;i < x; i++)
+    		if(x%i==0) break;
+    	if(i==x) return false;
+    	else return true;
     }
     private boolean magic( int x){
     	int s=0;
      	while(true){
       		while(x > 0){
-       			s=s+x%10;
-		        x=x/10;
+       			s=s+x%10; x=x/10;
        		}
-       		if(s < 10 )
-       			break;
+       		if(s < 10 ) break;
        		x=s; s=0;
        }
        if(s==1)
@@ -73,7 +66,8 @@ class Numbers{
        		return false;
     }
   	public static void main(String args[])throws Exception{
-       Str1 ob=new Str1();
+       Numbers ob=new Numbers();
        ob.takeNumbers();
     }
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

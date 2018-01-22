@@ -1,10 +1,10 @@
-/* Filename	: Merger.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2015
- * Question : 9
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Merger.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2015					|
+ * 						|	Question 	: 9 					|
+ * 						-----------------------------------------
  * ################################################################################################
  * ======================================[DESCRIPTION]=============================================
  * ################################################################################################
@@ -27,8 +27,10 @@
  *	Specify the class Merger, giving the details of the constructor, void readNum( ),void
  *	JoinNum( )and void show( ). Define the main( ) function to create an object and call the
  *	functions accordingly to enable the task.
- *-------------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
+
 import java.util.*;
 public class Merger{
 	long n1,n2,mergNum;
@@ -57,3 +59,5 @@ public class Merger{
 		obj.show();
 	}
 }
+
+// ------------------------------------{END OF THE CODE}-----------------------------------------

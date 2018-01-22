@@ -1,10 +1,10 @@
-/* Filename	: DDA.java
- * Coder	: Ayushanand Singh
- * Paper    : Practical
- * Year		: 2014
- * Question : 2
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: DDA.java				|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Practical				|
+ * 						|	Year		: 2014					|
+ * 						|	Question 	: 2	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -16,8 +16,8 @@
  *      2. Check if the given matrix is symmetric or not. If the element of the ith 
  *         row and jth column is same as element of the jth row and ith column.
  *    	3. Find the sum of the left and right diagonal of the matrix and display them
- *-----------------------------------------------------------------------------------------------
  */
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.io.*;
 class DDA{
 	int left=0,right=0,m,i,j, arr[][];
@@ -39,9 +39,8 @@ class DDA{
    		}
    		System.out.println("Original Matrix\n");
    		for(i=0;i < m : i++){
-    		for(j=0;j < n : j++){
+    		for(j=0;j < n : j++)
     			System.out.print(" "+arr[i][j]);
-    		}
     		System.out.println();
     	}
    		for(i=0;i < m ; i++){
@@ -51,8 +50,7 @@ class DDA{
     				break;
     			}
     		}
-    		if(bool==true)
-    		break;
+    		if(bool==true) break;
     	}
     	if(bool)
     		System.out.println("The given matrix is not symmetric");
@@ -70,7 +68,7 @@ class DDA{
     	System.out.println("Sum of the right diagonal="+right);
 	}
   	public static void main(String args[])throws Exception{
-    	Str2 ob=new Str2();
-       	ob.takeValues();
+    	DDA ob=new DDA(); ob.takeValues();
     }
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

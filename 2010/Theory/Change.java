@@ -1,10 +1,10 @@
-/* Filename	: Change.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2010
- * Question : 10
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Change.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2010					|
+ * 						|	Question 	: 10    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -23,12 +23,11 @@
  *											changes its case using caseconvert() and 
  *											forms a new word
  *			void display()				:	displays both the words
- *-----------------------------------------------------------------------------------------------
  */
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.io.*;
 class Change{
-	String str, newstr;
- 	int len;
+	String str, newstr; int len;
  	BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 	Change(){
  		str="";
@@ -63,3 +62,4 @@ class Change{
  		one.display();
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

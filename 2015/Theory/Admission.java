@@ -1,10 +1,10 @@
-/* Filename	: Admission.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2015
- * Question : 8
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Admission.java		|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2015					|
+ * 						|	Question 	: 8 					|
+ * 						-----------------------------------------
  * ################################################################################################
  * ======================================[DESCRIPTION]=============================================
  * ################################################################################################
@@ -23,8 +23,10 @@
  *	Specify the class Admission giving details of the constructor, void fillArray( ) and
  *	int binSearch(int, int, int) . Define the main( ) function to create an object and call the
  *	functions accordingly to enable the task.
- *-------------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
+
 import java.util.*;
 public class Admission{ 
 	static Scanner x=new Scanner(System.in);
@@ -58,3 +60,5 @@ public class Admission{
 			System.out.println("No. is present " );
 	}
 }
+
+// ------------------------------------{END OF THE CODE}-----------------------------------------

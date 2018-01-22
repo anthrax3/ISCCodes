@@ -1,10 +1,10 @@
-/* Filename	: WordPile.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2015
- * Question : 11
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: WordPile.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2015					|
+ * 						|	Question 	: 11 					|
+ * 						-----------------------------------------
  * ################################################################################################
  * ======================================[DESCRIPTION]=============================================
  * ################################################################################################
@@ -23,8 +23,10 @@
  *											possible, otherwise output a message “WordPile is full”
  *			char popChar() 				:	returns the deleted character from the top of the
  *											WordPile if possible, otherwise it returns ‘\\’
- *-------------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
+
 public class WordPile{
 	char ch[] = new char[20];
 	int capacity,top;
@@ -46,3 +48,5 @@ public class WordPile{
 			return '\\';
 	}
 }
+
+// ------------------------------------{END OF THE CODE}-----------------------------------------

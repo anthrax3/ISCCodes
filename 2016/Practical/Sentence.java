@@ -1,10 +1,10 @@
-/* Filename	: Sentence.java
- * Coder	: Ayushanand Singh
- * Paper    : Practical
- * Year		: 2016
- * Question : 3
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Sentence.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Practical				|
+ * 						|	Year		: 2016					|
+ * 						|	Question 	: 3 					|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -18,13 +18,13 @@
  *  	INPUT	: ANAMIKA AND SUSAN ARE NEVER GOING TO QUARREL ANYMORE.
  *		OUTPUT	: NUMBER OF WORDS BEGINNING AND ENDING WITH A VOWEL = 3
  *			 	  ANAMIKA ARE ANYMORE AND SUSAN NEVER GOING TO QUARREL
- *-----------------------------------------------------------------------------------------------
  */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
+
 import java.io.*;
-class Sentence
-{
-    public static void main(String arg[])throws IOException
-    {
+class Sentence{
+    public static void main(String arg[])throws IOException{
         int l,i,n, p, nowwv;
         boolean flag = true;
         char ch, fc, lc, lastChar;
@@ -63,3 +63,5 @@ class Sentence
             return false;
     }
 }
+
+// ------------------------------------{END OF THE CODE}-----------------------------------------

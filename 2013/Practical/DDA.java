@@ -1,10 +1,10 @@
-/* Filename	: DDA.java
- * Coder	: Ayushanand Singh
- * Paper    : Practical
- * Year		: 2013
- * Question : 2
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: DDA.java				|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Practical				|
+ * 						|	Year		: 2013					|
+ * 						|	Question 	: 2	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -15,8 +15,9 @@
  *    	1. Display the input matrix.
  *   	2. Create a mirror image of the inputted matrix.
  *     	3. Display the mirror image matrix.
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.util.*;
 class DDA{
 	public static void main(String[]args)throws InputMismatchException{
@@ -58,3 +59,4 @@ class DDA{
 		}
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

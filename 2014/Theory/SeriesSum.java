@@ -1,10 +1,10 @@
-/* Filename	: SeriesSum.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2014
- * Question : 9
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: SeriesSum.java		|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2014					|
+ * 						|	Question 	: 9	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -24,8 +24,9 @@
  *			void calculate( ) 				: 	to calculate the sum of the series by invoking
  *												the recursive functions respectively
  *			void display( ) 				: 	to display the sum of the series
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 class SeriesSum{
 	int x,n;
 	double sum;
@@ -53,3 +54,4 @@ class SeriesSum{
 		obj.display();
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

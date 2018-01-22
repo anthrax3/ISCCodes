@@ -1,10 +1,10 @@
-/* Filename	: DeciOct.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2011
- * Question : 9
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: DeciOct.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2011					|
+ * 						|	Question 	: 9	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -21,8 +21,8 @@
  *											it in oct using the recursive technique
  *		void show						: 	displays the decimal number n	calls the function 
  *											deci_oct() and displays its octal equivalent
- *-----------------------------------------------------------------------------------------------
  */
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.io.*;
 class DeciOct{
 	int n,oct;
@@ -61,3 +61,4 @@ class DeciOct{
  		one.show();
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

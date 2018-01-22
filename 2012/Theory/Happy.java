@@ -1,10 +1,10 @@
-/* Filename	: Happy.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2012
- * Question : 10
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Happy.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2012					|
+ * 						|	Question 	: 10	   				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -31,8 +31,9 @@
  *	Specify the class Happy giving details of the constructor( ), void getnum( int), 
  *	intsum_sq_digits(int) and void ishappy(). Also define a main function to create an object 
  *	and call the methods to check for a happy number.
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.io.*;
 class Happy{
 	int n,j;
@@ -66,3 +67,4 @@ class Happy{
  		ob.ishappy();
  	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

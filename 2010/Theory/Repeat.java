@@ -1,10 +1,10 @@
-/* Filename	: Repeat.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2010
- * Question : 12
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Repeat.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2010					|
+ * 						|	Question 	: 12    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -25,15 +25,14 @@
  *			int popvalue()				:	to remove and return element from the front, if	
  *											array is empty then return -9999
  *			void disp()					:	displays the elements present in the list
- *-----------------------------------------------------------------------------------------------
  */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.io.*;
 class Repeat{
  	int st[],f,r,cap;
  	Repeat(int m){
- 		cap=m;
- 		st=new int[cap];
- 		r=0;f=0;
+ 		cap=m; st=new int[cap]; r=0;f=0;
  	}  
  	public void pushvalue(int v){
      	if(r==cap)
@@ -53,10 +52,8 @@ class Repeat{
   			System.out.print(" "+st[i]);
  	}
 	public static void main(String args[]) throws Exception{
- 		Repeat one=new Repeat(100);
- 		int v=0;
+ 		Repeat one=new Repeat(100); int v=0; int i=1;
  		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
- 		int i=1;
  		while(i!=0){
   			System.out.print("\nPress '1' for push, '2' for pop and '0' for quit:");
 			i=Integer.parseInt(br.readLine());
@@ -74,3 +71,4 @@ class Repeat{
     	}
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

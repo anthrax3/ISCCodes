@@ -1,10 +1,10 @@
-/* Filename	: DDA.java
- * Coder	: Ayushanand Singh
- * Paper    : Practical
- * Year		: 2015
- * Question : 2
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: DDA.java				|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Practical				|
+ * 						|	Year		: 2015					|
+ * 						|	Question 	: 2 					|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -15,8 +15,10 @@
  *	    1. Display the original matrix.
  *    	2. Rotate the matrix 90ᵒ clockwise.
  *    	3. Find the sum of the elements of the four corners of the matrix.
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
+
 import java.util.*;
 class DDA{
 	public static void main(String args[])throws InputMismatchException{
@@ -33,19 +35,17 @@ class DDA{
 			for(i=0;i < m;i++){
 				for(j=0;j < m;j++){
 					a[i][j] = scan.nextInt();
-				}//loop j
-			}//loop i
+				}
+			}
 			ctr = 0;
-			//Display the original matrix and store elements of 
-			//2-d array a[] into 1-d array b[]
 			System.out.println("ORIGINAL MATRIX");
 			for(i=0;i < m;i++){
 				for(j=0;j < m;j++){
 					System.out.print(a[i][j] + " ");
 					b[ctr++] = a[i][j];
-				}//loop j
+				}
 				System.out.println();
-			}//loop i
+			}
 			c = m-1;
 			ctr = 0;
 			do{
@@ -57,10 +57,12 @@ class DDA{
 			for(i=0;i < m;i++){
 				for(j=0;j < m;j++){
 					System.out.print(a[i][j] + " ");
-				}//loop j
+				}
 				System.out.println();
-			}//loop i
+			}
 			System.out.println("Sum of the corner elements="+(a[0][0] + a[0][m-1] + a[m-1][0] + a[m-1][m-1]));
 		}
-	}//end of main
-}//end of class
+	}
+}
+
+// ------------------------------------{END OF THE CODE}-----------------------------------------

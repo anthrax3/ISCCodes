@@ -1,10 +1,10 @@
-/* Filename	: Numbers.java
- * Coder	: Ayushanand Singh
- * Paper    : Practical
- * Year		: 2013
- * Question : 1
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Numbers.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Practical				|
+ * 						|	Year		: 2013					|
+ * 						|	Question 	: 1	    				|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -26,8 +26,9 @@
  *			INPUT 	: 0201530821
  *			OUTPUT 	: SUM = 99
  *					  LEAVES NO REMAINDER - VALID ISBN CODE
- *-----------------------------------------------------------------------------------------------
- */ 
+ */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.io.*;
 class Numbers{
 	public static void main(String args[])throws IOException{
@@ -41,17 +42,16 @@ class Numbers{
 			System.out.println("INVALID INPUT");
 		}
 		else{
-			//PROCEED WITH COMPUTATION ONLY IF ISBN CODE CONTAINS 10 DIGITS
 			ctr = 10; s = 0;
 			for(i=0;i < l;i++){
 				ch = isbn.charAt(i);
-				if(ch == 'X') //X REPRESENTS 10 IN ISBN CODE
+				if(ch == 'X') 
 					t = 10;
 				else
-					t = ch - 48; //NUMERIC VALUE OF THE ASCII CODE OF DIGIT
-				s= s + ctr*t; //PERFORM COMPUTATION
+					t = ch - 48; 
+				s= s + ctr*t; 
 				ctr--;
-			}//END OF FOR LOOP
+			}
 			if(s%11 == 0){
 				System.out.println("SUM = "+s);
 				System.out.println("LEAVES NO REMAINDER - VALID ISBN CODE");
@@ -60,6 +60,7 @@ class Numbers{
 				System.out.println("SUM = "+s);
 				System.out.println("LEAVES REMAINDER - INVALID ISBN CODE");
 			}
-		}//END OF OUTERMOST ELSE
-	}//END OF MAIN
-}//END OF CLASS
+		}
+	}
+}
+// ------------------------------------{END OF THE CODE}-----------------------------------------

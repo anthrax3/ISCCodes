@@ -1,10 +1,10 @@
-/* Filename	: Point.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2010
- * Question : 8
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Point.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2010					|
+ * 						|	Question 	: 8    					|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -22,8 +22,9 @@
  *			Point midpoint(Point A, Point B):	calculates and returns the midpoint of the two 
  *												points A and B.
  *			void displaypoint()				:	displays the co-ordinates of a point
- *-----------------------------------------------------------------------------------------------
  */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
 import java.io.*;
 class Point{
  	int x,y;
@@ -64,3 +65,4 @@ class Point{
  		three.displaypoint();
 	}
 }
+// ------------------------------------{END OF THE CODE}-----------------------------------------

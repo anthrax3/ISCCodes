@@ -1,10 +1,10 @@
-/* Filename	: Account.java
- * Coder	: Ayushanand Singh
- * Paper    : Theory
- * Year		: 2016
- * Question : 10
- */
-/*
+/*						-----------------------------------------
+ * 						|	Filename	: Account.java			|
+ * 						|	Coder		: Ayushanand Singh		|
+ * 						|	Paper    	: Theory				|
+ * 						|	Year		: 2016					|
+ * 						|	Question 	: 10					|
+ * 						-----------------------------------------
  * ##############################################################################################
  * ======================================[DESCRIPTION]===========================================
  * ##############################################################################################
@@ -37,8 +37,10 @@
  *												penalty is imposed by using the formula
  *												p=p-(500-p)/10
  *				void display( ) 			: 	displays the details of the customer   
- *-----------------------------------------------------------------------------------------------
  */
+
+// ------------------------------------{SHOW ME THE CODE}----------------------------------------
+
 import java.util.Scanner;
 public class Account extends Bank{ 
 	static Scanner sc=new Scanner(System.in);
@@ -67,3 +69,5 @@ public class Account extends Bank{
 		super.display();
 	}
 }
+
+// ------------------------------------{END OF THE CODE}-----------------------------------------
